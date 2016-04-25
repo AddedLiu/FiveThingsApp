@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LiuChuang</string>
+    <string name="action_settings">Settings</string>
+    <string name="AppName">五方面</string>
+    <string name="AppDescription">更方便地使用安卓</string>
+    <string name="font_size">字号</string>
+    <string name="torch">手电筒</string>
+    <string name="network">数据</string>
+    <string name="WLAN">WLAN</string>
+    <string name="contacts">联系人</string>
+    <string name="title_activity_text_size">TextSize</string>
+    <string name="findSetting">1.在主界面中找到设置</string>
+    <string name="findDisplay">2.进入设置，找到显示</string>
+    <string name="findTextSize">3.进入显示设置，找到字体</string>
+    <string name="setTextSize">4.进入字体设置，找到并选择字号</string>
+    <string name="title_activity_torch">Torch</string>
+</resources>
