@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="cn.studyjamscn.s1.sj23.liuchuang.TextSize">
+    tools:context="cn.studyjamscn.s1.sj23.liuchuang.Mobile_network">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,55 +19,29 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:text="@string/findSetting" />
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/settingicon" />
+            android:text="@string/network_des" />
 
         <TextView
-            style="@style/BigText"
+            style="@style/MidText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:text="@string/findDisplay" />
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/find_display" />
+            android:text="@string/description_network" />
 
         <TextView
-            style="@style/BigText"
+            style="@style/MidText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:text="@string/findTextSize" />
+            android:text="@string/openNetwork" />
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
             android:scaleType="fitXY"
-            android:src="@drawable/find_text_size" />
-
-        <TextView
-            style="@style/BigText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:text="@string/setTextSize" />
+            android:src="@drawable/find_mobile_network" />
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/choose_text_size" />
     </LinearLayout>
+
 </ScrollView>

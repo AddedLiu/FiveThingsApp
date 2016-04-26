@@ -17,58 +17,62 @@
         android:orientation="vertical">
 
         <TextView
+            style="@style/BigText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="start"
-            android:text="@string/AppName"
-            style="@style/BigText" />
+            android:text="@string/AppName" />
 
         <TextView
+            style="@style/MidText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/AppDescription"
-            style="@style/MidText" />
+            android:text="@string/AppDescription" />
     </LinearLayout>
 
 
     <Button
+        style="@style/MyButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
         android:onClick="textSize"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_gravity="center"
-        android:layout_weight="1"
-        android:text="@string/font_size"
-        style="@style/BigText" />
+        android:text="@string/font_size" />
 
     <Button
+        style="@style/MyButton"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_gravity="center"
         android:layout_weight="1"
-        android:text="@string/torch"
-        style="@style/BigText" />
+        android:onClick="torch"
+        android:text="@string/torch" />
 
     <Button
+        style="@style/MyButton"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_gravity="center"
         android:layout_weight="1"
-        android:text="@string/network"
-        style="@style/BigText" />
+        android:onClick="network"
+        android:text="@string/network" />
 
     <Button
+        style="@style/MyButton"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_gravity="center"
         android:layout_weight="1"
-        android:text="@string/WLAN"
-        style="@style/BigText" />
+        android:onClick="wlan"
+        android:text="@string/WLAN" />
 
     <Button
+        style="@style/MyButton"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_gravity="center"
         android:layout_weight="1"
-        android:text="@string/contacts"
-        style="@style/BigText" />
+        android:onClick="contacts"
+        android:text="@string/contacts" />
 </LinearLayout>

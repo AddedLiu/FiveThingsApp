@@ -11,8 +11,33 @@ public class MainActivity extends ActionBarActivity {
 
     private Intent intent;
 
+    // 跳转到设置字体教程
     public void textSize(View view) {
         intent = new Intent(this, TextSize.class);
+        startActivity(intent);
+    }
+
+    // 跳转到手电筒教程
+    public void torch(View view) {
+        intent = new Intent(this, Torch.class);
+        startActivity(intent);
+    }
+
+    // 跳转到数据教程
+    public void network(View view) {
+        intent = new Intent(this, Mobile_network.class);
+        startActivity(intent);
+    }
+
+    // 跳转到WLAN教程
+    public void wlan(View view) {
+        intent = new Intent(this, WLAN.class);
+        startActivity(intent);
+    }
+
+    // 跳转到联系人教程
+    public void contacts(View view) {
+        intent = new Intent(this, Contacts.class);
         startActivity(intent);
     }
 

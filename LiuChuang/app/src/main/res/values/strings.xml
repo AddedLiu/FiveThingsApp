@@ -14,4 +14,24 @@
     <string name="findTextSize">3.进入显示设置，找到字体</string>
     <string name="setTextSize">4.进入字体设置，找到并选择字号</string>
     <string name="title_activity_torch">Torch</string>
+    <string name="openShortcut">打开通知栏</string>
+    <string name="openTorch">点击更多，找到并打开手电筒</string>
+    <string name="pre">如果您使用的是小米手机</string>
+    <string name="openTByHome">在锁屏状态下长按HOME键也能打开手电筒</string>
+    <string name="find_tools">找到系统工具文件夹</string>
+    <string name="open_torch3">打开手电筒软件，用屏幕上的开关控制手电筒</string>
+    <string name="title_activity_mobile_network">Mobile_network</string>
+    <string name="network_des">数据简介</string>
+    <string name="openNetwork">打开通知栏，打开数据流量</string>
+    <string name="description_network">数据即移动网，一般说每个月的流量是多少就是针对移动网络的，每月超出套餐部分流量由运营商额外收费</string>
+    <string name="title_activity_wlan">WLAN</string>
+    <string name="wlan_des">WLAN简介</string>
+    <string name="description_WLAN">WLAN通俗讲就是WiFi，根据套餐的不同有不同的收费标准，一般情况下是按月收费的，也就是说流量可以无限使用；当然也有按流量收费的WiFi，但是与数据流量相比，WiFi一般更为便宜</string>
+    <string name="openWLAN">打开通知栏，打开WLAN</string>
+    <string name="chooseWiFi">选择并连接WiFi</string>
+    <string name="title_activity_contacts">Contacts</string>
+    <string name="find_contacts">找到并打开联系人列表</string>
+    <string name="contacts_list">联系人列表如下</string>
+    <string name="create_contacts">点击“新建联系人”按钮来添加联系人</string>
+    <string name="input_information">输入联系人信息，最后点击“确认”保存联系人信息</string>
 </resources>
